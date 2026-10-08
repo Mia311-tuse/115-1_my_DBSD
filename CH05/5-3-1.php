@@ -1,0 +1,12 @@
+# Name: 謝佳芯 <BR>
+# SID: C113181127 <BR>
+# EX02
+<HR>
+<?php
+$total = 0;
+for ($i = 1; $i <= 100; $i++) {
+    echo "|" . $i;
+    $total += $i;
+}
+echo "<HR>";
+echo " 總和：" . $total;
