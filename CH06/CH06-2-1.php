@@ -1,8 +1,10 @@
 <?php
+
 function printHeader()
 {
     echo "<h3> SID: C113181127 </h3>";
     echo "<h3> Name: 謝佳芯 </h3>";
+    echo "<h3>EX01</h3>";
     echo "php and MySQL PageDesign";
 }
 function printFooter()

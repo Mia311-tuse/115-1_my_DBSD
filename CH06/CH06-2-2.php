@@ -12,7 +12,7 @@ function rateExchange($amount, $rate)
     return $amount * $rate;
 }
 
-$rate = rateExchange(100, 32.5);
+$rate = rateExchange(1000, 32.5);
 printHeader();
 echo "Money:" . $rate;
 ?>
