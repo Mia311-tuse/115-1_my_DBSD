@@ -1,6 +1,6 @@
 <?php
 require("about_me.php");
-echo "W08-EX01" . "<br/>";
+echo "W08-EX04" . "<br/>";
 
 
 if (isset($_COOKIE["ItemName"])) {
@@ -15,10 +15,10 @@ if (isset($_COOKIE["ItemName"])) {
 } else {
     $itemName = "White iphone";
     $quantity = "10";
-    $date = strtotiime("+10days", time());
+    $date = strtotime("+10days", time());
 
-    setcookie("ItemName", $itemName, $date)
-    setcookie("Quantity", $quantity, $date)
+    setcookie("ItemName", $itemName, $date);
+    setcookie("Quantity", $quantity, $date);
 
     echo "新增名為ItemName的Cookie: " . $itemName . "<br/>";
     echo "新增名為Quantity的Cookie: " . $quantity . "<br/>";
