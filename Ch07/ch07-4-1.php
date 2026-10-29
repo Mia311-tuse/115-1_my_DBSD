@@ -1,4 +1,7 @@
 <?php
+require("about_me.php");
+echo"W08-EX01"."<br/>";
+
 $str1 = "PHP and MySQL Web Programming"; // 字串變數
 $str2 = " PHP與MySQL網頁設計範例教本 ";
 echo "測試英文字串1: " . $str1 . "\"<br/>";
