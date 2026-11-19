@@ -1,4 +1,3 @@
-<!-- 程式範例：delete.php -->
 <?php
 function each(&$array)
 {
